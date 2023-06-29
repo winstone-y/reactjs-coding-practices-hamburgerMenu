@@ -1,4 +1,4 @@
-import {Link} from 'react-router-dom'
+// import {Link} from 'react-router-dom'
 import Header from '../Header'
 
 // Write your code here
@@ -6,13 +6,13 @@ import Header from '../Header'
 const Home = () => (
   <>
     <Header />
-    <Link to="/" className="body-card">
+    <div className="body-card">
       <img
         alt="home"
         src="https://assets.ccbp.in/frontend/react-js/home-lg-img.png "
         className="image"
       />
-    </Link>
+    </div>
   </>
 )
 
